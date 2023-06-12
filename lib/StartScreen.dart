@@ -122,7 +122,7 @@ class _StartScreenState extends State<StartScreen> {
                                   style: TextStyle(
                                     color: Colors.black,
                                   ),
-                                ),
+                                ), 
                                 TextSpan(
                                     text: 'Log In',
                                     recognizer: TapGestureRecognizer()
