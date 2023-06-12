@@ -121,10 +121,10 @@ class _StartScreenState extends State<StartScreen> {
                                   text: 'Already have an account?      ',
                                   style: TextStyle(
                                     color: Colors.black,
-                                  ),
+                                   ),
                                 ), 
                                 TextSpan(
-                                    text: 'Log In',
+                                     text: 'Log In',
                                     recognizer: TapGestureRecognizer()
                                       ..onTap = () {
                                         Navigator.push(
